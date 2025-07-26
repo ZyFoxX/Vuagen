@@ -21,9 +21,6 @@ git clone https://github.com/ZyFoxX/vuagen.git
 
 # Navigate to the directory
 cd vuagen
-
-# Install dependencies (if any)
-npm install
 ```
 
 ## Usage
