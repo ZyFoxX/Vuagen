@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Vuagen is a simple and flexible User-Agent generator for browser automation, testing, and web scraping.",
   "main": "Vuagen.js",
+  "bin": {
+    "vuagen": "./Vuagen.js"
+  },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
@@ -10,6 +13,8 @@
     "vuagen",
     "user-agent",
     "user-agent-generator",
+    "useragent",
+    "useragentgenerator",
     "automation",
     "web-scraping",
     "testing"
