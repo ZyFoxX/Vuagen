@@ -1,8 +1,6 @@
 # Vuagen - User-Agent Generator
 
-
 Vuagen is a simple and flexible User-Agent generator for browser automation, testing, and web scraping.
-
 
 ## Features
 
@@ -12,8 +10,16 @@ Vuagen is a simple and flexible User-Agent generator for browser automation, tes
 - **Save output to file in TXT or JSON format**
 - **Highly customizable through command-line options**
 
-
 ## Installation
+
+### Via npm (recommended)
+
+Install globally so you can use the `vuagen` command anywhere:
+```bash
+npm install -g vuagen
+```
+
+### Manual 
 
 ```bash
 # Clone the repository
@@ -25,12 +31,19 @@ cd vuagen
 
 ## Usage
 
+### Via CLI
+
+```bash
+vuagen [options]
+```
+
+### Via Node.js 
+
 ```bash
 node Vuagen.js [options]
 ```
 
-If you run without any options, help information will be displayed automatically.
-
+If you run without any options, help will appear automatically.
 
 ## Options
 
@@ -45,31 +58,30 @@ If you run without any options, help information will be displayed automatically
 | `-s <os>`     | Specific OS                                                        | `windows`, `macos`, `linux`, `android`, `ios`                               |
 | `-h`          | Show help message                                                  | Flag (no value needed)                                                      |
 
-
 ## Examples
 
 ### Generate 5 Firefox mobile user agents
 
 ```bash
-node Vuagen.js -t firefox -c 5 -m
+vuagen -t firefox -c 5 -m
 ```
 
 ### Generate a Safari desktop user agent and save to file
 
 ```bash
-node Vuagen.js -t safari -o agents.txt -d
+vuagen -t safari -o agents.txt -d
 ```
 
 ### Generate 10 random user agents in JSON format
 
 ```bash
-node Vuagen.js -c 10 -f json -o agents.json
+vuagen -c 10 -f json -o agents.json
 ```
 
 ### Generate Windows-specific Chrome user agents
 
 ```bash
-node Vuagen.js -t chrome -c 3 -s windows
+vuagen -t chrome -c 3 -s windows
 ```
 
 ## License  
