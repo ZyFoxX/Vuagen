@@ -1,6 +1,6 @@
 {
   "name": "vuagen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vuagen is a simple and flexible User-Agent generator for browser automation, testing, and web scraping.",
   "main": "Vuagen.js",
   "bin": {
