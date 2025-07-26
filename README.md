@@ -1,7 +1,7 @@
 # Vuagen - User-Agent Generator
 
 
-> Vuagen is a simple and flexible User-Agent generator for browser automation, testing, and web scraping.
+Vuagen is a simple and flexible User-Agent generator for browser automation, testing, and web scraping.
 
 
 ## Features
