@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const { parseArgs, showHelp } = require('./src/cli/parseArgs');
 const { UAGenerators, generateRandomUA } = require('./src/core/uagenerators');
