@@ -1,0 +1,27 @@
+{
+  "name": "vuagen",
+  "version": "1.0.0",
+  "description": "Vuagen is a simple and flexible User-Agent generator for browser automation, testing, and web scraping.",
+  "main": "Vuagen.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "vuagen",
+    "user-agent",
+    "user-agent-generator",
+    "automation",
+    "web-scraping",
+    "testing"
+  ],
+  "author": "ZyFoxX",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZyFoxX/Vuagen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZyFoxX/Vuagen/issues"
+  },
+  "homepage": "https://github.com/ZyFoxX/Vuagen#readme"
+}
